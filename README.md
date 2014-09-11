@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #CakePHP Application Demo
 
 *App-Demo* es una aplicación desarrollada con el framework cakePHP.
@@ -9,3 +10,9 @@ Esta aplicación maneja:
 
 Esta herramienta simplifica el desarrollo de aplicaciones, como dijo Da Vinci:
 > The simplicity is the ultimate sophistication.
+=======
+App-Demo
+========
+
+An Application Developed with CakePHP
+>>>>>>> FETCH_HEAD
