@@ -1,0 +1,2 @@
+1410417628
+a:2:{s:4:"name";a:5:{s:32:"f9d967bf30a267fe2c66ee53add2fae0";s:14:"`cake_appdemo`";s:32:"ee34ad948579a3cb7a82fbf50d771067";s:8:"`genres`";s:32:"82ca8aa152e179e0d5fa61cc4ff02291";s:12:"`Genre`.`id`";s:32:"92bf3b8eda7d89cd416ad76d467d4dda";s:21:"`Genre`.`genres_name`";s:32:"0289234c0ed0ab1eb382c87a11f64732";s:7:"`Genre`";}s:6:"fields";a:2:{s:32:"65b91c871f11c717a895e55f4e938f57";a:2:{i:0;s:12:"`Genre`.`id`";i:1;s:21:"`Genre`.`genres_name`";}s:32:"3cf59e41b170c089b062faeba0be15fc";a:1:{i:0;s:12:"`Genre`.`id`";}}}

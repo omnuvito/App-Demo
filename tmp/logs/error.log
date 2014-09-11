@@ -1,0 +1,1313 @@
+2014-09-04 00:20:28 Error: [NotFoundException] Invalid post
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-04 01:35:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 03:20:43 Error: [MissingActionException] Action PostsController::Games() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'Games',
+)
+Request URL: /Cake%20Projects/app-demo/posts/Games
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 03:23:20 Error: [MissingActionException] Action PostsController::Games() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'Games',
+)
+Request URL: /Cake%20Projects/app-demo/posts/Games
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 03:39:14 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/post
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-04 03:39:23 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/post
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-04 03:39:48 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/post
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-04 04:33:13 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 111]
+2014-09-04 04:33:13 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/users/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 04:34:28 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 111]
+2014-09-04 04:34:28 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/users/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 04:34:33 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 111]
+2014-09-04 04:34:33 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/users
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 111, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 05:08:05 Error: [MissingActionException] Action GamesController::ass() could not be found.
+Exception Attributes: array (
+  'controller' => 'GamesController',
+  'action' => 'ass',
+)
+Request URL: /Cake%20Projects/app-demo/games/ass
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(GamesController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 05:34:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/module.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-04 16:04:42 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('DebugKit')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-04 17:04:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Model/User.php, line 140]
+2014-09-04 17:04:56 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 140, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 140, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 17:05:25 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Model/User.php, line 140]
+2014-09-04 17:05:25 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 140, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 140, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 17:11:12 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 115]
+2014-09-04 17:11:12 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 115)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 115, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 115, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-04 17:11:43 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 17:11:53 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-04 17:12:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-05 06:01:41 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/post/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 06:01:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-05 06:01:58 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/users/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-05 06:22:20 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /Cake%20Projects/app-demo/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-05 15:39:03 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 115]
+2014-09-05 15:39:03 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Cake%20Projects/app-demo/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 115)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 115, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 115, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:08:10 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp, line 9]
+2014-09-05 18:08:11 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/josealej...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/josealej...', 9, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/josealej...', 9, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:11:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/nicedit/nicEdit.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:13:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:14:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:22:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:24:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:24:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:27:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 18:42:20 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php, line 12]
+2014-09-05 18:42:20 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:42:36 Error: [MissingHelperException] Helper class TinyMCEHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('TinyMCE')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp(9): View->__get('TinyMCE')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(471): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-05 18:50:16 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php, line 12]
+2014-09-05 18:50:16 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:50:45 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php, line 12]
+2014-09-05 18:50:45 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:50:49 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php, line 12]
+2014-09-05 18:50:49 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 18:50:55 Error: [MissingHelperException] Helper class TinyMCEHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('TinyMCE')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp(6): View->__get('TinyMCE')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(471): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-05 18:56:35 Error: Fatal Error (4): syntax error, unexpected '",i,"' (T_CONSTANT_ENCAPSED_STRING) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Plugin/TinyMCE/webroot/js/tiny_mce/tiny_mce.js, line 1]
+2014-09-05 18:56:35 Error: [FatalErrorException] syntax error, unexpected '",i,"' (T_CONSTANT_ENCAPSED_STRING)
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 1, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 1, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-05 19:08:48 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:10:00 Error: [MissingHelperException] Helper class TinyMceHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMceHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce', Array)
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-09-05 19:10:10 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:10:59 Error: [MissingPluginException] Plugin TinyMCE could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMCE',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMCE')
+#2 [internal function]: App::load('TinyMCEHelper')
+#3 [internal function]: spl_autoload_call('TinyMCEHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMCEHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMCE.TinyMCE', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:11:09 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:12:40 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:12:49 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:17:34 Error: [MissingControllerException] Controller class App-demoController could not be found.
+Exception Attributes: array (
+  'class' => 'App-demoController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/app-demo/Plugin/TinyMce/webroot/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:17:34 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:17:35 Error: [MissingControllerException] Controller class App-demoController could not be found.
+Exception Attributes: array (
+  'class' => 'App-demoController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/app-demo/Plugin/TinyMce/webroot/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:18:00 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:18:25 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:18:25 Error: [MissingControllerException] Controller class App-demoController could not be found.
+Exception Attributes: array (
+  'class' => 'App-demoController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/app-demo/Plugin/TinyMce/webroot/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:18:25 Error: [MissingControllerException] Controller class App-demoController could not be found.
+Exception Attributes: array (
+  'class' => 'App-demoController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/app-demo/Plugin/TinyMce/webroot/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:18:32 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:21:53 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:35:37 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:37:12 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:37:12 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:37:39 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:37:48 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:37:49 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:38:01 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:38:01 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:40:11 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:40:53 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/TinyMCE/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-05 19:41:37 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:42:34 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:43:50 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:46:20 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:51:19 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:52:39 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 19:53:07 Error: [MissingPluginException] Plugin TinyMce could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMce',
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMce')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMce')
+#2 [internal function]: App::load('TinyMceHelper')
+#3 [internal function]: spl_autoload_call('TinyMceHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMceHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMce.TinyMce', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-05 20:02:38 Error: [MissingHelperException] Helper class TinyMCEHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('TinyMCE')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp(1): View->__get('TinyMCE')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(471): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-05 20:04:38 Error: [MissingHelperException] Helper class TinyMCEHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('TinyMCE')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp(1): View->__get('TinyMCE')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(471): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-06 08:31:34 Error: Fatal Error (4): syntax error, unexpected '",i,"' (T_CONSTANT_ENCAPSED_STRING) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Plugin/TinyMCE/webroot/js/tiny_mce/tiny_mce.js, line 1]
+2014-09-06 08:31:34 Error: [FatalErrorException] syntax error, unexpected '",i,"' (T_CONSTANT_ENCAPSED_STRING)
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 1, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 1, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-06 08:39:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:40:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:40:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:40:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:40:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:41:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:41:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:41:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:41:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:41:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:42:14 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/add.ctp, line 14]
+2014-09-06 08:42:14 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 14, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 14, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-06 08:42:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:42:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:42:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:42:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:43:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tiny_mce/tiny_mce.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 08:47:26 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php, line 12]
+2014-09-06 08:47:26 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 12, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-06 08:51:33 Error: [MissingPluginException] Plugin TinyMCE could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMCE',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMCE')
+#2 [internal function]: App::load('TinyMCEHelper')
+#3 [internal function]: spl_autoload_call('TinyMCEHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMCEHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMCE.TinyMCE', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-06 08:51:45 Error: [MissingPluginException] Plugin TinyMCE could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMCE',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMCE')
+#2 [internal function]: App::load('TinyMCEHelper')
+#3 [internal function]: spl_autoload_call('TinyMCEHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMCEHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMCE.TinyMCE', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-06 08:51:48 Error: [MissingPluginException] Plugin TinyMCE could not be found.
+Exception Attributes: array (
+  'plugin' => 'TinyMCE',
+)
+Request URL: /Cake%20Projects/app-demo/posts/add
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(227): CakePlugin::path('TinyMCE')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(549): App::path('View/Helper', 'TinyMCE')
+#2 [internal function]: App::load('TinyMCEHelper')
+#3 [internal function]: spl_autoload_call('TinyMCEHelper')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(130): class_exists('TinyMCEHelper')
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(886): HelperCollection->load('TinyMCE.TinyMCE', Array)
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(354): View->loadHelpers()
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(PostsController))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-06 09:01:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 09:01:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-06 09:01:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cake%20Projects/app-demo/js/tinymce/tinymce.min.js
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-07 10:53:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake_appdemo`.`posts`, CONSTRAINT `fk_user_userid` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Request URL: /Cake%20Projects/app-demo/new_post
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Post), Array, Array)
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/PostsController.php(52): Model->save(Array)
+#5 [internal function]: PostsController->add()
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-11 06:03:15 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/users/delete
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 06:05:40 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/user
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 06:07:23 Error: Fatal Error (1): Class 'CakeSession' not found in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Config/routes.php, line 26]
+2014-09-11 06:07:23 Error: [FatalErrorException] Class 'CakeSession' not found
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakeSess...', '/Users/josealej...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeSess...', '/Users/josealej...', 26, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeSess...', '/Users/josealej...', 26, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 06:07:58 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/user
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 06:15:33 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/user
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 07:17:37 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Genres/view.ctp, line 3]
+2014-09-11 07:17:37 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Cake%20Projects/app-demo/genres/view/5409d515-4d98-478c-bba1-29c545c98f09
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 3, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 3, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 07:18:05 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Genres/view.ctp, line 3]
+2014-09-11 07:18:05 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /Cake%20Projects/app-demo/genres/view/5409d515-4d98-478c-bba1-29c545c98f09
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 3, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 3, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 07:57:34 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/index.ctp, line 20]
+2014-09-11 07:57:34 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 20, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 20, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 07:57:42 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Posts/index.ctp, line 20]
+2014-09-11 07:57:42 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 20, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 20, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 08:35:07 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 08:35:29 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
