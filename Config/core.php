@@ -110,19 +110,19 @@
  * Web path to the public images directory under webroot.
  * If not set defaults to 'img/'
  */
-	//Configure::write('App.imageBaseUrl', 'img/');
+	Configure::write('App.imageBaseUrl', 'img/');
 
 /**
  * Web path to the CSS files directory under webroot.
  * If not set defaults to 'css/'
  */
-	//Configure::write('App.cssBaseUrl', 'css/');
+	Configure::write('App.cssBaseUrl', 'css/');
 
 /**
  * Web path to the js files directory under webroot.
  * If not set defaults to 'js/'
  */
-	//Configure::write('App.jsBaseUrl', 'js/');
+	Configure::write('App.jsBaseUrl', 'js/');
 
 /**
  * Uncomment the define below to use CakePHP prefix routes.
@@ -207,7 +207,10 @@
  *
  */
 	Configure::write('Session', array(
-		'defaults' => 'php'
+		'defaults' => 'cake',
+		'cookie' => 'app-demo',
+		'timeout' => '4320',
+		'checkAgent' => 'true'
 	));
 
 /**
@@ -243,7 +246,7 @@
  *
  * To use, prefix your JavaScript link URLs with '/cjs/' instead of '/js/' or use JsHelper::link().
  */
-	//Configure::write('Asset.filter.js', 'custom_javascript_output_filter.php');
+	Configure::write('Asset.filter.js', 'custom_javascript_output_filter.php');
 
 /**
  * The class name and database used in CakePHP's
@@ -256,7 +259,7 @@
  * Uncomment this line and correct your server timezone to fix
  * any date & time related errors.
  */
-	//date_default_timezone_set('UTC');
+	// date_default_timezone_set('UTC-4:30');
 
 /**
  * Cache Engine Configuration
