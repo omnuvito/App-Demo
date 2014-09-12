@@ -22,11 +22,31 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-	public $components = array('Paginator', 'Session', 'Auth');
-	public $helpers = array('Js' => array('Jquery'));
+	public $components = array(
+		'Paginator', 
+		'Session',
+		'Cookie', 
+		'Auth' => array(
+			'loginRedirect' => array(
+				'controller' => 'profiles',
+				'action' => 'index'
+			),
+			'logoutRedirect' => array(
+				'controller' => 'posts',
+				'action' => 'index'
+			),
+			'authenticate' => array(
+                'Form' => array(
+                    'passwordHasher' => 'Blowfish'
+                )
+            )
+		)
+	);
 
 	public function beforeFilter()
 	{
 		$this->Auth->deny('');
 	}
+
+
 }
