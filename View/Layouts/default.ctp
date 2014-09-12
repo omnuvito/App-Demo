@@ -20,7 +20,7 @@ $cakeDescription = __d('cake_dev', 'A cakephp development');
 		<?php
 			echo $this->Html->meta('icon');
 			echo $this->Html->css('style');
-			echo $this->Html->script('jquery-2.1.1');
+			echo $this->Html->script('jquery-2.1.1', false);
 			
 			echo $this->fetch('meta');
 			echo $this->fetch('css');
@@ -32,8 +32,8 @@ $cakeDescription = __d('cake_dev', 'A cakephp development');
 			<div class='user_login'>
 				<p class='menu_l'>
 				<?php 
-					if(CakeSession::read('User.id')!=null){
-						echo $this->Html->link(CakeSession::read('User.username'), array('controller'=>'users','action'=>'view',CakeSession::read('User.id')));?>
+					if($this->Session->check('User.id') && $this->Session->read('User.id')!=null){
+						echo $this->Html->link($this->Session->read('User.username'), array('controller'=>'users','action'=>'view',$this->Session->read('User.id')));?>
 						&nbsp;&nbsp;&nbsp;
 					<?php
 						echo $this->Html->link('Logout', array('controller'=>'users', 'action'=>'logout'));

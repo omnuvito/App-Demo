@@ -4,12 +4,12 @@
 			<h2> Welcome <?php echo($user['User']['username']) ?></h2>
 		</div>
 		<div class='user_login menu_l'>
-			<?php echo $this->Html->link(__('Edit User'), array('action' => 'edit', CakeSession::read('User.id'))); ?>&nbsp;&nbsp; 
-			<?php echo $this->Form->postLink(__('Delete User'), array('action' => 'delete', CakeSession::read('User.id')), array(), __('Are you sure you want to delete # %s?', CakeSession::read('User.username'))); ?>&nbsp;&nbsp;
+			<?php echo $this->Html->link(__('Edit User'), array('action' => 'edit', $user['User']['id'])); ?>&nbsp;&nbsp; 
+			<?php echo $this->Form->postLink(__('Delete User'), array('action' => 'delete', $user['User']['id']), array(), __('Are you sure you want to delete # %s?', $user['User']['username'])); ?>&nbsp;&nbsp;
 		</div>
 		<div class="profile_content">
-			<p>Name: <?php echo CakeSession::read('User.name'); ?> <?php echo CakeSession::read('User.last_name'); ?></p>
-			<p>email: <?php echo CakeSession::read('User.email'); ?></p>
+			<p>Name: <?php echo $user['User']['name']; ?> <?php echo $user['User']['last_name']; ?></p>
+			<p>email: <?php echo $user['User']['email']; ?></p>
 		</div>
 		
 		<div>
@@ -38,7 +38,7 @@
 
 		<h3><?php echo ('Games that you like'); ?></h3>
 		<div class='user_login menu_l'>
-			<?php echo $this->Html->link('Add a game', array('controller'=>'users','action'=>'edit',CakeSession::read('User.id'))); ?>&nbsp;&nbsp;
+			<?php echo $this->Html->link('Add a game', array('controller'=>'users','action'=>'edit',$user['User']['id'])); ?>&nbsp;&nbsp;
 		</div>
 		<div class='profile_content'>
 			<?php if (!empty($user['Game'])): ?>

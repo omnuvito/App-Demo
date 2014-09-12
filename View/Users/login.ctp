@@ -3,21 +3,11 @@
 <?php echo $this->Form->create('User'); ?>
     <fieldset>
         <legend>
-            <?php echo ('Login'); ?>
+            <?php echo __('Please enter your username and password'); ?>
         </legend>
-        <div class='border_form'>
-        	<br />
-	        <?php 
-		        echo $this->Form->input('username');
-		    ?>
-		    <span class='required'> *</span>
-		    <br />
-		    <br />
-		    <?php
-		        echo $this->Form->input('password');
-		    ?>
-		    <span class='required'> *</span>
-		    <?php echo $this->Form->end(__('Login')); ?>
-		</div>
+        <?php echo $this->Form->input('username');
+        echo $this->Form->input('password');
+    ?>
     </fieldset>
+<?php echo $this->Form->end(__('Login')); ?>
 </div>
