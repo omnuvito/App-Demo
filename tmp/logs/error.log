@@ -1311,3 +1311,333 @@ Stack Trace:
 #3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-09-12 03:47:36 Error: [CakeException] Authentication adapter "passwordHasher" was not found.
+Request URL: /Cake%20Projects/app-demo/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Component/AuthComponent.php(750): AuthComponent->constructAuthenticate()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Component/AuthComponent.php(600): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php(132): AuthComponent->login()
+#3 [internal function]: UsersController->login()
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-09-12 03:49:10 Error: [CakeException] Authentication adapter "passwordHasher" was not found.
+Request URL: /Cake%20Projects/app-demo/posts/view/54111d1b-1ae4-4a75-9dd0-213d45c98f09
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Component/AuthComponent.php(676): AuthComponent->constructAuthenticate()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Component/AuthComponent.php(303): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(PostsController))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-12 04:02:27 Error: [NotFoundException] Invalid post
+Request URL: /Cake%20Projects/app-demo/posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 04:11:42 Error: [NotFoundException] Invalid post
+Request URL: /Cake%20Projects/app-demo/posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 04:40:29 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 137]
+2014-09-12 04:40:29 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Cake%20Projects/app-demo/login
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 137)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 137, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 137, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 05:45:22 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 05:51:31 Error: [NotFoundException] Invalid user
+Request URL: /Cake%20Projects/app-demo/user/logout
+Stack Trace:
+#0 [internal function]: UsersController->view('logout')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 05:57:36 Error: [NotFoundException] Invalid profile
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 [internal function]: ProfilesController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 05:59:40 Error: [NotFoundException] Invalid profile
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 [internal function]: ProfilesController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 06:00:05 Error: [NotFoundException] Invalid profile
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 [internal function]: ProfilesController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 06:00:05 Error: Fatal Error (1): Call to undefined method CakeSession::get() in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp, line 35]
+2014-09-12 06:00:05 Error: [FatalErrorException] Call to undefined method CakeSession::get()
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/josealej...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/josealej...', 35, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/josealej...', 35, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 06:02:40 Error: [NotFoundException] Invalid profile
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 [internal function]: ProfilesController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 06:04:59 Error: Fatal Error (1): Class name must be a valid object or a string in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp, line 36]
+2014-09-12 06:04:59 Error: [FatalErrorException] Class name must be a valid object or a string
+Request URL: /Cake%20Projects/app-demo/profiles
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class name must...', '/Users/josealej...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class name must...', '/Users/josealej...', 36, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class name must...', '/Users/josealej...', 36, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 06:07:03 Error: [NotFoundException] Invalid profile
+Request URL: /Cake%20Projects/app-demo/profiles/edit
+Stack Trace:
+#0 [internal function]: ProfilesController->edit()
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-12 07:06:20 Error: Fatal Error (1): Call to a member function destroy() on a non-object in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Controller/UsersController.php, line 136]
+2014-09-12 07:06:20 Error: [FatalErrorException] Call to a member function destroy() on a non-object
+Request URL: /Cake%20Projects/app-demo/users/logout
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/josealej...', 136)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/josealej...', 136, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/josealej...', 136, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 07:06:38 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:15:31 Error: Fatal Error (64): Cannot redeclare Cookie::destroy() in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Helper/CookieHelper.php, line 20]
+2014-09-12 07:15:31 Error: [FatalErrorException] Cannot redeclare Cookie::destroy()
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/josealej...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 07:15:53 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:15:53 Error: Fatal Error (64): Cannot redeclare class Cookie in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Helper/CookieHelper.php, line 20]
+2014-09-12 07:15:53 Error: [FatalErrorException] Cannot redeclare class Cookie
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/josealej...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 07:16:00 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:16:00 Error: Fatal Error (64): Cannot redeclare class Cookie in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Helper/CookieHelper.php, line 20]
+2014-09-12 07:16:00 Error: [FatalErrorException] Cannot redeclare class Cookie
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/josealej...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/josealej...', 20, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 07:16:22 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:17:01 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:17:01 Error: Fatal Error (64): Cannot redeclare class Cookie in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Helper/CookieHelper.php, line 6]
+2014-09-12 07:17:01 Error: [FatalErrorException] Cannot redeclare class Cookie
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/josealej...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/josealej...', 6, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/josealej...', 6, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-12 07:17:12 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 07:33:01 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /Cake%20Projects/app-demo/
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(837): HelperCollection->__isset('Cookie')
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/View/Layouts/default.ctp(35): View->__get('Cookie')
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(948): include('/Users/josealej...')
+#4 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(910): View->_evaluate('/Users/josealej...', Array)
+#5 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(542): View->_render('/Users/josealej...')
+#6 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 /Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-12 17:08:03 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Users/josealejandro/Desktop/Sandbox/Sites/Cake Projects/app-demo/Config/routes.php, line 27]
+2014-09-12 17:08:03 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Cake%20Projects/app-demo/logout
+Stack Trace:
+#0 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/josealej...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/josealej...', 27, Array)
+#2 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/josealej...', 27, Array)
+#3 /Users/josealejandro/Desktop/Sandbox/Sites/cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
