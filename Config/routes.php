@@ -24,10 +24,11 @@
 	Router::connect('/new_genre', array('controller'=>'genres', 'action'=>'add'));
 	Router::connect('/new_game', array('controller'=>'games', 'action'=>'add'));
 	Router::connect('/user/*', array('controller'=>'users', 'action'=>'view'));
+	Router::connect('/logout', array('controller'=>'users', 'action'=>'logout'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	// Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
