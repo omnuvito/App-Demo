@@ -18,7 +18,8 @@ class PostsController extends AppController {
 
 	public function beforeFilter()
 	{
-		$this->Auth->allow('add','login','index');
+		parent::beforeFilter();
+		$this->Auth->allow('add','index');
 	}
 
 /**
